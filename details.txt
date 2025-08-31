@@ -1,0 +1,19 @@
+Type: Ecommerce
+Product: Gaming Keyboards
+Name: 4Keyz
+
+colors : 
+    red : #E43636
+    white: #F6EFD2
+    beige: #E2DDB4
+    black: #000000
+
+Structure:
+        
+        -NavBar,Pages:
+            -Home Page
+            -About us Page
+            -all products
+            -single product (not navbar)
+            -contact us page
+            -userIcon: myProfilePage

@@ -1,0 +1,23 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won’t be available)
+
+$primary: #e43636;
+.card-img-fixed {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.hover-shadow {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transform: scale(1.03);
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here

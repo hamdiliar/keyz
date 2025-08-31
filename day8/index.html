@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-[#E8D4B7]">
+    <header class="flex flex-col pt-5 text-center">
+      <h1 class="text-3xl font-bold">My Account</h1>
+      <p class="">Home / My Account</p>
+    </header>
+
+    <div
+      class="container flex flex-col md:flex-row justify-center items-start md:space-x-8 p-4 md:p-8 w-full max-w-7xl mx-auto"
+    >
+      <div class="aside w-full md:w-1/4 p-4 sm:p-8 md:p-12 lg:p-16 xl:p-15">
+        <aside>
+          <ul class="space-y-5">
+            <li class="bg-amber-500 p-2 rounded-full">Personal Information</li>
+            <li>My Orders</li>
+            <li>Manage Address</li>
+            <li>Payment Method</li>
+            <li>Password Manager</li>
+            <li>Log out</li>
+          </ul>
+        </aside>
+      </div>
+
+      <div class="main w-full md:w-3/4 flex justify-center items-center">
+        <div class="bodies w-full max-w-lg">
+          <div class="image w-32 m-10 block mx-auto">
+            <img
+              class="rounded-full"
+              src="./460851091_1086672633181294_4600183968564958332_n.jpg"
+              alt=""
+            />
+          </div>
+          <form class="p-2 flex flex-col">
+            <div class="name flex flex-col sm:flex-row space-x-0 sm:space-x-2">
+              <div class="first-name flex flex-col">
+                <label for="" class="text-xl font-bold">First Name</label>
+                <input
+                  class="p-2 border-2 border-black-500 rounded-md mt-3 mb-5"
+                  type="text"
+                  placeholder="*First Name"
+                />
+              </div>
+              <div class="last-name flex flex-col">
+                <label for="" class="text-xl font-bold">Last Name</label>
+                <input
+                  class="p-2 border-2 border-black-500 rounded-md mt-3 mb-5"
+                  type="text"
+                  placeholder="*Last Name"
+                />
+              </div>
+            </div>
+            <div class="deatils flex flex-col">
+              <label for="" class="text-xl font-bold">Email</label>
+              <input
+                class="p-2 border-2 border-black-500 rounded-md mt-3 mb-5"
+                type="text"
+                placeholder="*Email"
+              />
+              <label for="" class="text-xl font-bold">Phone</label>
+              <input
+                class="p-2 border-2 border-black-500 rounded-md mt-3 mb-5"
+                type="text"
+                placeholder="*Phone"
+              />
+              <label for="" class="text-xl font-bold">Gender</label>
+              <select
+                class="p-2 border-2 border-black-500 rounded-md mt-3 mb-5"
+                name="gender"
+                id="gender"
+              >
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div class="button flex justify-center">
+              <button
+                type="submit"
+                class="bg-[#1f9410] text-white border-0 rounded-full p-2 w-40 h-12 cursor-pointer"
+              >
+                Update Changes
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="features p-20 flex flex-col sm:flex-row justify-evenly space-y-4 items-center mb-5"
+    >
+      <div class="ship flex flex-row space-x-3">
+        <div class="car">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-15"
+            viewBox="0 0 640 512"
+          >
+            <path
+              fill="#1f9410"
+              d="M64 96c0-35.3 28.7-64 64-64l288 0c35.3 0 64 28.7 64 64l0 32 50.7 0c17 0 33.3 6.7 45.3 18.7L621.3 192c12 12 18.7 28.3 18.7 45.3L640 384c0 35.3-28.7 64-64 64l-3.3 0c-10.4 36.9-44.4 64-84.7 64s-74.2-27.1-84.7-64l-102.6 0c-10.4 36.9-44.4 64-84.7 64s-74.2-27.1-84.7-64l-3.3 0c-35.3 0-64-28.7-64-64l0-48-40 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 240c-13.3 0-24-10.7-24-24s10.7-24 24-24l176 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 144c-13.3 0-24-10.7-24-24S10.7 96 24 96l40 0zM576 288l0-50.7-45.3-45.3-50.7 0 0 96 96 0zM256 424a40 40 0 1 0 -80 0 40 40 0 1 0 80 0zm232 40a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"
+            />
+          </svg>
+        </div>
+        <div class="text">
+          <h1 class="font-bold text-2xl">Free Shipping</h1>
+          <p>Free Shipping for order above $50</p>
+        </div>
+      </div>
+      <div class="pay flex flex-row space-x-3">
+        <div class="car">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 640 640 "
+            class="w-15"
+          >
+            <path
+              fill="#1f9410"
+              d="M64 192L64 224L576 224L576 192C576 156.7 547.3 128 512 128L128 128C92.7 128 64 156.7 64 192zM64 272L64 448C64 483.3 92.7 512 128 512L512 512C547.3 512 576 483.3 576 448L576 272L64 272zM128 424C128 410.7 138.7 400 152 400L200 400C213.3 400 224 410.7 224 424C224 437.3 213.3 448 200 448L152 448C138.7 448 128 437.3 128 424zM272 424C272 410.7 282.7 400 296 400L360 400C373.3 400 384 410.7 384 424C384 437.3 373.3 448 360 448L296 448C282.7 448 272 437.3 272 424z"
+            />
+          </svg>
+        </div>
+        <div class="text">
+          <h1 class="font-bold text-2xl">Flexible Payment</h1>
+          <p>Multiple secure payment options</p>
+        </div>
+      </div>
+      <div class="support flex flex-row space-x-3">
+        <div class="car">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"
+            class="w-15"
+          >
+            <path
+              fill="#1f9410"
+              d="M344-32c128.1 0 232 103.9 232 232 0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM320 88c0-13.3 10.7-24 24-24 75.1 0 136 60.9 136 136 0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88-13.3 0-24-10.7-24-24zM144.1 1.4c19.7-5.4 40.3 4.7 48.1 23.5l40.5 97.3c6.9 16.5 2.1 35.6-11.8 47l-44.1 36.1c32.5 71.6 89 130 159.3 164.9L374.7 323c11.3-13.9 30.4-18.6 47-11.8L519 351.8c18.8 7.8 28.9 28.4 23.5 48.1l-1.5 5.5C523.4 470.1 460.9 525.3 384.6 509.2 209.6 472.1 71.9 334.4 34.8 159.4 18.7 83.1 73.9 20.6 138.5 2.9l5.5-1.5z"
+            />
+          </svg>
+        </div>
+        <div class="text">
+          <h1 class="font-bold text-2xl">24 * 7 Support</h1>
+          <p>We support inline all days.</p>
+        </div>
+      </div>
+    </div>
+    <section
+      class="news flex justify-center flex-col items-center text-center space-y-3"
+    >
+      <p class="text-3xl font-medium">Our Newsletter</p>
+      <h1 class="text-6xl font-semibold leading-tight">
+        Subscribe to Our Newsletter to <br />
+        Get
+        <span class="text-[#1f9410]"> Updates on Our Latest Offers.</span>
+      </h1>
+      <p class="text-lg">
+        Get 25% off on your first order just by subscribing to our newsletter
+      </p>
+      <div class="email justify-center flex-row m-2">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="*Enter Email Address"
+          class="p-3 text-xl border-0 bg-amber-50 rounded-3xl"
+        />
+        <button
+          type="submit"
+          class="bg-[hsl(39,89%,44%)] text-white border-0 rounded-full p-3 w-40 h-13 cursor-pointer ml-3"
+        >
+          Update Changes
+        </button>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </body>
+</html>
